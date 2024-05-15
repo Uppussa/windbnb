@@ -1,0 +1,61 @@
+nav, a{
+  display: flex;
+  justify-content: space-between;
+  align-items: auto;
+}
+
+nav input, a{
+  width: 130px;
+  height: 55px;
+  justify-content: space-between;
+}
+
+.inputs{
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  box-shadow: -2px 2px 7px grey;
+}
+
+.locationInput{
+  border: 1px solid gray;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border: none;
+}
+
+.guestsInput{
+  border: 0.1px solid gray;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+nav button{
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 55px;
+  width: 50px;
+  border: 0.1px solid gray;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+nav button:hover{
+  background-color:aliceblue ;
+}
+
+nav input::placeholder{
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: gray;
+}
