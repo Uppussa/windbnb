@@ -5,7 +5,6 @@ import './Nav.css';
 
 const Nav = ({ results, setFiltered }) => {
   const [search, setSearch] = useState('');
-  const [guests, setGuests] = useState(1);
   const [showGuestsModal, setShowGuestsModal] = useState(false);
   const [adults, setAdults] = useState(1);
   const [children, setChildren] = useState(0);
